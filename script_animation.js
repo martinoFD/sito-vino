@@ -2,7 +2,7 @@
 function setAnimation() {
 
     var scrollLenght = jQuery(window).scrollTop();
-    var winHeight = jQuery(window).height() / 1.2;
+    var winHeight = jQuery(window).height() / 1.2;    
 
     jQuery('.animation').each(function () {
         var thisHeight = jQuery(this).offset().top;

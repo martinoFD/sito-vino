@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barrio&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root{
+  --main_color : #90153d;
+}
 
 body {
   margin: 0;
@@ -68,7 +71,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 .section-title {
   font-weight: 600;
-  color: #90153d;
+  color: var( --main_color);
   font-family: "Barrio", sans-serif;
   font-size: 3em;
 }
@@ -80,7 +83,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 .section-title {
   font-weight: 600;
-  color: #90153d;
+  color: var( --main_color);
   font-family: "Barrio", sans-serif;
   font-size: 3em;
 }
@@ -115,7 +118,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .footer {
-  background-color: #90153d;
+  background-color: var( --main_color);
   color: white;
   padding: 30px 0;
   font-size: 12px;
@@ -135,7 +138,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 .year {
   font-size: 4rem;
-  color: #90153d;
+  color: var( --main_color);
   font-family: "Barrio", sans-serif;
 }
 .year img {
@@ -149,7 +152,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-section {
-  background-color: #90153d;
+  background-color: var( --main_color);
   color: white;
 
   display: flex;
@@ -175,7 +178,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 .hero-section .btn:hover {
   background-color: #fff;
-  color: #90153d;
+  color: var( --main_color);
   font-weight: bold;
 }
 
@@ -187,7 +190,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 .info-section h2 {
   font-family: "Barrio", sans-serif;
-  color: #90153d;
+  color: var( --main_color);
 }
 
 .info-section .titolo {
@@ -200,8 +203,8 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .info-section .btn {
-  border: 1px solid #90153d;
-  color: #90153d;
+  border: 1px solid var( --main_color);
+  color: var( --main_color);
 }
 
 .info-section img {
@@ -240,14 +243,14 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 
 .cta-section .btn {
-  border: 1px solid #90153d;
-  color: #90153d;
+  border: 1px solid var( --main_color);
+  color: var( --main_color);
 }
 
 .cta-section .btn:hover {
   border: 1px solid #fff;
   color: #fff;
-  background-color: #90153d;
+  background-color: var( --main_color);
 }
 
 .sezione-testo {
@@ -387,13 +390,13 @@ opacity: 1 !important;
 #download-pdf .btn {
   transition: all 0.3s ease;
   /* background-color: transparent; */
-  color: #90153d;
+  color: var( --main_color);
   /* font-weight: bold; */
-  border: solid 3px #90153dff;
+  border: solid 3px var( --main_color)ff;
   
 }  
 #download-pdf .btn:hover {
-  background-color: #90153d;
+  background-color: var( --main_color);
   color: #fff;
   /* font-weight: bold; */
   
@@ -432,8 +435,8 @@ opacity: 1 !important;
       90deg,
       rgba(253, 253, 253, 0) 0%,
       rgba(255, 255, 255, 0) 49.3%,
-      rgb(144, 21, 61) 49.4%,
-      rgba(144, 21, 61, 1) 49.8%,
+      var( --main_color) 49.4%,
+      var( --main_color) 49.8%,
       rgba(255, 255, 255, 0) 49.9%,
       rgba(255, 255, 255, 0) 100%
     )
@@ -446,16 +449,10 @@ opacity: 1 !important;
 }
 
 
-body, h1, h2, p {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
+/* ************************************** */
 
-body {
-  background-color: #f9f9f9;
-  line-height: 1.6;
-}
+
+
 
 .navbar {
   background-color: #fff;
@@ -500,8 +497,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 60px 20px;
-  background-color: #eee;
+  /*padding: 60px 20px;*/
+  /*background-color: #eee;*/
 }
 
 .hero-content {

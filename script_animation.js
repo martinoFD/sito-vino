@@ -18,3 +18,18 @@ function setAnimation() {
 jQuery(window).on('scroll', setAnimation);
 
 jQuery(window).on('load', setAnimation);
+
+
+
+//nav-bar animation
+
+// Aggiorna la posizione al clic
+document.querySelector('.navbar-toggler').addEventListener('click', function() {
+	// let nav_height = $(".navbar-nav").outerHeight(true);
+    // $(".navbar-nav").css("height", nav_height-1 + "px")
+	// console.log(nav_height);
+	
+ 
+    $('.navbar').toggleClass('active');
+});
+

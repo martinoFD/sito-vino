@@ -3,199 +3,133 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="content-language" content="it">
-	<meta name="viewport"
-		content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
-	<meta name="author" content="xxx" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="xxx">
 	<meta name="description"
-		content="Costaamadi - Dove la passione per il vino si intreccia con la magia delle colline del prosecco" />
-	<meta property="og:title" content="Costaamadi" />
-	<meta property="og:image" content="images/preview.png" />
+		content="Costaamadi - Dove la passione per il vino si intreccia con la magia delle colline del prosecco">
+	<meta property="og:title" content="Costaamadi">
+	<meta property="og:image" content="images/preview.png">
 	<title>Costamadi - Storia</title>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
 	<link rel="manifest" href="icon/site.webmanifest">
 	<link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="apple-mobile-web-app-title" content="CostAAmadi">
 	<meta name="application-name" content="CostAAmadi">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
-	<script src="libs\jquery.js"></script>
-	<script src="libs\bootstrap.min.js"></script>
-	<link rel="stylesheet" href="libs\bootstrap.min.css">
 	<link rel="stylesheet" href="css_sito.css">
+	<link rel="stylesheet" href="libs/slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" href="libs/slick-1.8.1/slick/slick-theme.css">
+	<script src="libs/jquery.js"></script>
+	<script src="libs/slick-1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body class="bg-grey">
 
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
-		<a class="navbar-brand" href="index.html"><img src="images/logo.originale.png" alt="Logo"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto  mr-5">
-				<li class="nav-item text-uppercase mr-4"><a class="nav-link" href="vini.html">Vini</a></li>
-				<li class="nav-item text-uppercase mr-4"><a class="nav-link" href="territorio.html">Territorio</a></li>
-				<li class="nav-item text-uppercase mr-4"><a class="nav-link active" href="storia.html">Storia</a></li>
-			</ul>
+	<nav class="navbar">
+		<div class="navbar-container">
+			<div class="navbar-container-brand-toggle">
+				<a class="navbar-brand" href="index.html"><img src="images/logo.originale.png" alt="Logo"></a>
+				<div class="navbar-toggler" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">&#9776;</span>
+				</div>
+			</div>
 		</div>
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="vini.html">Vini</a></li>
+			<li class="nav-item"><a class="nav-link" href="territorio.html">Territorio</a></li>
+			<li class="nav-item"><a class="nav-link active" href="storia.html">Storia</a></li>
+		</ul>
 	</nav>
 
-
-
 	<!-- Carousel -->
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		</ol>
+	 <div class="relative">
 
-		<!-- Carousel items -->
-		<div class="carousel-inner">
-			<p class="title">UNA STORIA DI FAMIGLIA E PASSIONE</p>
-			<div class="carousel-item active">
-				<img class="d-block w-100" src="images/storia/storia.1.jpg" alt="First slide">
+	 	<h1 class="carousel-title">UNA STORIA DI FAMIGLIA E PASSIONE</h1>
+	<div class="carousel" id="slick-carousel">
+	
 
-			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100" src="images/storia/storia.2.JPG" alt="Second slide">
-
-			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100" src="images/storia/storia.3.JPG" alt="Third slide">
-
-			</div>
-		</div>
-
-		<!-- Controls -->
-		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+		<div><img src="images/storia/storia.1.jpg" alt="First slide"></div>
+		<div><img src="images/storia/storia.2.JPG" alt="Second slide"></div>
+		<div><img src="images/storia/storia.3.JPG" alt="Third slide"></div>
 	</div>
-
-
-	<div class="row m-4 pt-5 ">
-		<div class="col-md-12  m-5 text-center m-auto animation fadeIn">
-			<div class="row mx-auto col-8 flex-column">
-
-				<h2 class="text-center section-title mx-auto ">LA NOSTRA STORIA</h2>
-				<p class="text-center section-subtitle mx-auto  ">Dove la passione per il vino si tramanda in ogni
-					generazione</p>
-			</div>
-			<div class="row mx-auto col-8 col-md-5">
-
-				<div class="year text-center my-5"><img class="d-block " src="images/1987.png" alt="1987"></div>
-			</div>
+</div>
+	<div class="content-section text-center">
+		<div class="section-header">
+			<h2 class="section-title">LA NOSTRA STORIA</h2>
+			<p class="section-subtitle">Dove la passione per il vino si tramanda in ogni generazione</p>
+			<div class="year"><img src="images/1987.png" alt="1987"></div>
 		</div>
 	</div>
-
 
 	<!-- Content Section -->
-	<section class="content-section pb-0">
-		<div class="container-fluid linear-background py-3 ">
+	<section class="content-section storia">
+		<div class="linear-background">
+			<div class="content-block animation fadein_left">
+				<div class="content-image" style="background-image: url(images/storia/storia.azienda.bn.jpg);"></div>
+				<div class="content-text descrizione animation fadein_right right">
+					<p>La storia della Società Agricola Costabella inizia nel 1987 quando Adriano Amadio, figlio di agricoltori, acquista la tenuta di Collalbrigo.</p>
+					<p>Nei 5 anni successivi, riporta al loro splendore i terreni e la casa padronale, oggi sede della sua famiglia e cantina.</p>
+				</div>
+			</div>
+			<div class="content-block reverse animation fadein_right">
+		 
+				<div class="contenitore-due-immagini" >
+					
+					<div class="content-image" style="background-image: url(images/storia/storia.adriano.jpg);"></div>
+					<div class="content-image" style="background-image: url(images/storia/storia.bambino.jpg);"></div>
+				</div>
 
+		 
+				
+				 
+				<div class="content-text descrizione animation fadein_left left">
+					<p>Adriano e suo figlio Paolo, formati alla Scuola Enologica di Conegliano, hanno sviluppato una visione imprenditoriale del mondo enologico.</p>
+					<p>Con impegno, l'azienda è cresciuta, comprendendo 20 ettari di vigneti nel territorio UNESCO delle Colline del Prosecco.</p>
+				</div>
+			</div>
+			<div class="content-block animation fadein_left">
+				<div class="content-image" style="background-image: url(images/storia/storia.azienda.colori.jpg);"></div>
+				<div class="content-text descrizione animation fadein_right right">
+					<p>Lo spirito con cui Adriano e Paolo hanno deciso di portare avanti l'azienda comprende un rigoroso rispetto verso il territorio in cui si trovano i vigneti, mantenendo un giusto equilibrio tra la viticoltura e l'ambiente naturale.
+					</p>
+				</div>
+			</div>
+			<div class="content-block reverse animation fadein_right">
+				
+				<div class="contenitore-due-immagini" >
+					
+					<div class="content-image" style="background-image: url(images/storia/storia.adriano.bn.jpg);"></div>
+				<div class="content-image" style="background-image: url(images/storia/storia.azienda.ora.jpg);"></div>
+				</div>
 
-			<div class="row my-4">
 
 				
-				<div class="col-md-6  m-3 animation fadein_left mx-auto pl-md-0 pr-md-5">
-					<img class="img-fluid  " src="images/storia/storia.azienda.bn.jpg" alt="Foto">
-				</div>
-
-				<div class="descrizione my-5 my-md-0 col-md-6 m-md-auto px-5 animation fadein_right text-left animate ">
-					<p class="mx-auto">La storia della Società Agricola Costabella inizia nel 1987 quando Adriano
-						Amadio, figlio di agricoltori con una naturale predisposizione e passione per la vita di
-						campagna, acquista la tenuta di Collalbrigo.</p>
-					<p class="mx-auto">Nei 5 anni successivi lavora per riportare al loro antico splendore i terreni e
-						la casa padronale sulla sommità della collina, che tutt'oggi ospita la sua famiglia e la
-						cantina.</p>
+				<div class="content-text descrizione animation fadein_left">
+					<p>La famiglia Amadio è consapevole del paesaggio culturale unico in cui coltiva i propri vigneti e si impegna a trasmettere i profumi e i sapori naturali e sinceri delle colline del Prosecco.</p>
 				</div>
 			</div>
-			<div class="row my-4 justify-content-center flex-column-reverse flex-md-row">
-				<div
-					class="descrizione my-5 my-md-0 col-md-6 m-md-auto col-md-6 px-5  text-right  animation fadein_left">
-					<p class="mx-auto">Adriano, come il figlio Paolo che insieme a lui gestisce l'azienda, ha
-						frequentato la prestigiosa Scuola Enologica di Conegliano, percorso formativo che gli ha
-						permesso di sviluppare una visione tecnica e imprenditoriale del mondo enologico.</p>
-					<p class="mx-auto">Un passo alla volta, con duro lavoro e passione l'azienda è cresciuta fino ad
-						arrivare a comprendere 20 ettari di vigneti, 16 dei quali collocati nel territorio UNESCO delle
-						Colline del Prosecco di Conegliano Valdobbiadene.</p>
-				</div>
-				<div class="col-md-6 p-4 pl-md-0 pr-md-5  animation fadein_right  ">
-					<div class="row align-items-center ">
-						<div class="col-md-5  col-6">
-							<img class="img-fluid mb-4 mr-5" src="images/storia/storia.adriano.jpg" alt="Foto">
-						</div>
-						<div class="col-6 col-md-7 pr-md-0 mr-md-0">
-							<img class="img-fluid  " src="images/storia/storia.bambino.jpg" alt="Foto">
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row my-4">
-				<div class="col-md-6 pl-md-0 pr-md-5 animation fadein_left  ">
-					<img class="img-fluid  " src="images/storia/storia.azienda.colori.jpg" alt="Foto">
-				</div>
-				<div
-					class="descrizione my-5 my-md-0 col-md-6 m-md-auto col-md-6 m-4 m-md-auto text-left animation fadein_right animate">
-					<p class="mx-auto">Lo spirito con cui Adriano e Paolo hanno deciso di portare avanti l'azienda
-						comprende un rigoroso rispetto verso il territorio in cui si trovano i vigneti, mantenendo un
-						giusto equilibrio tra la viticoltura e l'ambiente naturale.</p>
-				</div>
-			</div>
-			<div class="row  my-4   justify-content-center flex-column-reverse flex-md-row">
-				<div
-					class="descrizione my-5 my-md-0 col-md-6 m-md-auto col-md-6 px-5 text-right animation fadein_left animate">
-					<p class="mx-auto">La famiglia Amadio è consapevole del paesaggio culturale unico in cui coltiva i
-						propri vigneti e si impegna a trasmettere i profumi e i sapori naturali e sinceri delle colline
-						del Prosecco.</p>
-				</div>
-				<div class="col-md-6 p-4 pl-md-0 pr-md-5 animation fadein_right">
-					<div class="row align-items-center">
-						<div class="col-6 col-md-5  ">
-							<img class="img-fluid  mr-md-5" src="images/storia/storia.adriano.bn.jpg" alt="Foto">
-						</div>
-						<div class=" col-6 col-md-7 pr-md-0 mr-md-0">
-							<img class="img-fluid  " src="images/storia/storia.azienda.ora.jpg" alt="Foto">
-
-						</div>
-					</div>
-				</div>
-			</div>
-
 		</div>
 	</section>
 
 	<!-- Team Section -->
-	<section class="team-section text-center my-5 ">
+	<section class="team-section text-center">
 		<div class="container-fluid">
 			<img src="images/AA.png" alt="AA Logo">
-			<div class="row mt-4 foto-section ">
-				<div class="col-md-4 animation fadeInBlock " style="transition-delay: .1s">
-					<img class="rounded-circle" src="images/storia/adriano.png" alt="Adriano">
+			<div class="foto-section">
+				<div class="animation fadeInBlock" style="transition-delay: .1s">
+					<img class="rounded-circle" src="images/storia/adriano.png"  alt="Adriano">
 					<h5>ADRIANO</h5>
 				</div>
-				<div class="col-md-4  animation fadeInBlock" style="transition-delay: .2s">
-					<!-- <img class="rounded-circle" src="images/storia/paolo-foto.jpg" alt="Paolo"> -->
-					<img class="rounded-circle" src="images/storia/paolo.png" alt="Paolo">
-
+				<div class="animation fadeInBlock" style="transition-delay: .2s">
+					<img class="rounded-circle" src="images/storia/paolo.png"  alt="Paolo">
 					<h5>PAOLO</h5>
 				</div>
-				<div class="col-md-4 animation fadeInBlock " style="transition-delay: .3s">
-					<!-- <img class="rounded-circle" src="images/storia/daniela-foto.jpg" alt="Daniela"> -->
-					<img class="rounded-circle" src="images/storia/daniela.png" alt="Daniela">
-
+				<div class="animation fadeInBlock" style="transition-delay: .3s">
+					<img class="rounded-circle" src="images/storia/daniela.png"  alt="Daniela">
 					<h5>DANIELA</h5>
 				</div>
 			</div>
@@ -203,33 +137,39 @@
 	</section>
 
 	<!-- Footer -->
-	<footer class="footer py-5 pb-3">
-		<div class="container-fluid ">
-			<div class="row align-items-center">
-				<div class="col-md-4 pb-5 col-sm-12 text-center">
-					<a class="logo" href="index.html"><img src="images/logo.bianco.png" alt="Logo"></a>
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="footer-container">
+				<div class="footer-logo">
+					<a href="index.html"><img src="images/logo.bianco.png" alt="Logo"></a>
 				</div>
-
-				<div class="col-md-4 col-sm-6 ">
-					<h5 class="mb-0 pb-0 titoletto">SOCIETÀ AGRICOLA COSTABELLA</h5>
-					<p class="my-1 py-0">di Amadio Adriano e Amadio Paolo s.s.</p>
+				<div class="footer-info">
+					<h5 class="titoletto">SOCIETÀ AGRICOLA COSTABELLA</h5>
+					<p>di Amadio Adriano e Amadio Paolo s.s.</p>
 					<div class="underline"></div>
-					<p>Via Michele Giunti 27, <br> 31015 Conegliano TV </p>
+					<p>Via Michele Giunti 27, 31015 Conegliano TV</p>
 					<p>P.IVA 04357000266</p>
 				</div>
-				<div class="col-md-4 col-sm-6  ">
-					<h5 class="titoletto my-1 py-0">CONTATTI</h5>
+				<div class="footer-contact">
+					<h5 class="titoletto">CONTATTI</h5>
 					<div class="underline"></div>
-					<p>Tel: +39 0438 62405 <br> Email:
-						<a href="mailto:soc.agr.costabella@gmail.com">soc.agr.costabella@gmail.com</a>
-					</p>
+					<p>Tel: +39 0438 62405 <br> Email: <a href="mailto:soc.agr.costabella@gmail.com">soc.agr.costabella@gmail.com</a></p>
 				</div>
 			</div>
 		</div>
 	</footer>
 
 	<script src="script_animation.js"></script>
-
+	<script>
+		$(document).ready(function () {
+			$('#slick-carousel').slick({
+				dots: true,
+				autoplay: true,
+				autoplaySpeed: 3000,
+				arrows: true
+			});
+		});
+	</script>
 </body>
 
 </html>
